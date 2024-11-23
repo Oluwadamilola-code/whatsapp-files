@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(241, 241, 248);
+}
+
+.div1{
+    width: 340px;
+}
+h1{
+    color: blue;
+    font-size: 50px;
+    margin: 0 auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: .9px;
+}
+
+input[type="text"] {
+    width: 250px;
+    height: 15px;
+    padding: 10px 10px;
+    margin: 5px 5px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    outline-color: rgb(101, 101, 235);
+}
+input[type="password"] {
+    width: 250px;
+    height: 15px;
+    padding: 10px 10px;
+    margin: 5px 5px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    outline-color: rgb(101, 101, 235);
+}
+p{
+    font-size: 20px;
+    margin: 0 auto;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 100vh;
+    gap: 48px;
+}
+.div2{
+    width: 280px;
+    height: 290px;
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 5px;
+}
+button.first{
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 272px;
+    margin: 8px 5px;
+}
+button.second{
+    background-color: rgb(95, 238, 95);
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 2px 55px;
+}
+p2{
+    color: rgb(5, 5, 206);
+    margin: 8px 55px;
+}
+hr{
+    margin: 15px 5px;
+}
+.last{
+    text-align: center;
+    font-size: 12px;
+    margin: 30px auto;
+}

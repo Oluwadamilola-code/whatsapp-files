@@ -1,0 +1,65 @@
+.div1{
+    background-color: rgb(250, 233, 247);
+   display: flex;
+   height: 600px;
+   justify-content: center;
+    
+}
+
+#fac{
+    color: blue;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin: 100px auto 0px auto          ;
+}
+ 
+#fac2{
+    font-size: 20px;
+    margin-top: 0px;
+    color: black;
+
+}
+
+
+.div2{
+    margin-top: 1%;
+    border-radius: 2%;
+    text-align: left;
+    align-items: center;
+    width:500px;
+   
+}
+.div3{
+   justify-items: center;
+    
+}
+.div4{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    margin-top: 1%;
+    border-radius: 2%;
+    text-align: center;
+    align-items: right;
+    width: 400px;
+    height: max-content;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.356);
+}
+
+body{
+    background-color: rgb(245, 221, 239);
+    
+}
+
+input{
+    width: 300px ;
+    height: 10px;
+}
+
+#login{
+    background-color: blue;
+    color: white;
+    font-size: bold;
+    border: none;
+}

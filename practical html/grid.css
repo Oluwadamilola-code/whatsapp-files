@@ -1,0 +1,27 @@
+.grid_elements:hover{
+    box-shadow: 0 0 10px gray;
+    transition-duration: 1s;
+}
+
+.grid_items{
+    width: 800px;
+    height: 1000px;
+    border: 1px solid black;
+    display: grid;
+     grid-template-rows: repeat(3,fr);
+    row-gap: 10px;
+    column gap: 10px;
+    grid-auto-columns: minmax(100px,300px);
+    /* grid-template-row: 1fr 1fr 1fr 1fr; */
+     margin: auto;
+}
+
+.grid_items>div{
+    /* height: 100px; */
+    border: 10px solid black;
+}
+
+.wide{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
