@@ -67,7 +67,32 @@
 //     finally
 // )
 
+const req = new XMLHttpRequest()
+
+req.open("GET", "https://catfact.ninja/fact?limit=15&max_length=60")
+req.send()
+
+req.onload = console.log(req.response.fact);
+
+const getFacts = new Promise((resolve,reject)=>{
+    req.send( )
+    req.responseType ="json"
+    req.onload = () => resolve(req.response);
+    req.onerror = ()=> reject(req.statusText)
+})
+
+
+getFacts
+.then(result=>result.data)
+                                             
+.then(result=>console.log(result)
+).catch(error=> console.log(error)
+)
+
+
  
+
+
 
 
     
